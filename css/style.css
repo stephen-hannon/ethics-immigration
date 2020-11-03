@@ -1,0 +1,161 @@
+body {
+    padding-top: 56px;
+    background-color: #838383;
+}
+
+p { 
+    margin-bottom: 8px; 
+}
+
+.navbar { 
+    font-family: Georgia !important; 
+}
+
+/* BUTTON COLORS */
+.btn-primary, .btn-primary:active, .btn-primary:visited, .btn-primary:focus, .btn-primary.focus {
+    background-color: #b6b6b6 !important;
+    border-color: #b6b6b6;
+    color: #FFFFFF;
+    border-radius: 20px;
+    font-family:Georgia;
+    box-shadow: none !important;
+}
+.btn-primary:hover {
+    background-color: #838383 !important;
+    border-color: #838383;
+    color: #FFFFFF;
+    border-radius: 20px;
+    font-family:Georgia;
+    box-shadow: none !important;
+}
+.btn-secondary, .btn-secondary:hover, .btn-secondary:active, .btn-secondary:visited, .btn-secondary:focus, .btn-secondary.focus {
+    background-color: #838383 !important;
+    border-color: #838383;
+    color: #FFFFFF;
+    border-radius: 0px;
+    box-shadow: none !important;
+    outline: #838383;
+}
+
+.jumbotron{
+    padding: 35px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    /* allows for background images */
+	background-size: cover;
+    background-repeat: no-repeat;
+} 
+
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #838383;
+    font-family: Georgia !important;
+    font-size: .8em;
+    color: #FFFFFF;
+}
+
+/* vertical center */
+.centerme {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* image overlay on mouse hover */
+.image {
+    position:relative;
+    display:inline-block;
+    margin-bottom: 0em;
+ }
+ .overlay {
+    display:none;
+ }
+ .image:hover .overlay {
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,.7);
+    position:absolute;
+    top:0;
+    left:0;
+    display:inline-block;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    img {
+       vertical-align: top;
+    }
+ }
+
+ /* jumbotron overlay on mouse hover */
+ .hovjumbo { position:relative;}
+ .hovjumbo:hover .overlay {
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,.7);
+    position:absolute;
+    top:0;
+    left:0;
+    display:inline-block;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    img {
+       vertical-align: top;
+    }
+ }
+
+/* MODAL */
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+}
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 80px auto; /* 15% from the top and centered */
+    padding: 5px;
+    border: 1px solid #888;
+    width: 90%; /* Could be more or less, depending on screen size */
+}
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* VIDEOS */
+.container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
