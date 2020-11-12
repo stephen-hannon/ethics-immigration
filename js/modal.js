@@ -1,4 +1,4 @@
-[1, 5, 6].forEach(function (num, index) {
+[1, 5, 6, 7].forEach(function (num, index) {
   // Get the modal
   var modal = document.getElementById("myModal" + num);
 
