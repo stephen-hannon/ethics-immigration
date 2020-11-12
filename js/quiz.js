@@ -122,7 +122,14 @@
              b: "Non-immigrants coming to the U.S. must perform a specialty occupation or as a fashion model",
              c: "H-1B visas should be limited to a field that requires an advanced degree"
            },
-           correctAnswer: "b"}
+           correctAnswer: "b"},
+           {question: "What is the main reason for the H1-B ban by the Trump administration?",
+            answers: {
+              a: "There are too many foreign workers already",
+              b: "A high crime rate among foreign workers",
+              c: "US workers who lose jobs need to be protected"
+            },
+            correctAnswer: "c"}
   ];
 
   // Kick things off
