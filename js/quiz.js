@@ -115,7 +115,14 @@
             b: "500",
             c: "1,000"
           },
-          correctAnswer: 'a'}
+          correctAnswer: 'a'},
+          {question: "What does U.S. Code 1101 of the Immigration and Nationality Act state?",
+           answers: {
+             a: "Any immigrant working in the U.S. in the technology industry must be from Europe or Asia",
+             b: "Non-immigrants coming to the U.S. must perform a specialty occupation or as a fashion model",
+             c: "H-1B visas should be limited to a field that requires an advanced degree"
+           },
+           correctAnswer: "b"}
   ];
 
   // Kick things off
